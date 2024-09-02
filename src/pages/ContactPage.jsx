@@ -46,7 +46,32 @@ const ContactPage = () => {
 
     const submitForm = (e) => {
         e.preventDefault();
-        // Add form submission logic here
+        
+        // Check if all fields are filled
+        if (formData.name && formData.email && formData.message) {
+            // Save form data to local storage
+            localStorage.setItem('formData', JSON.stringify(formData));
+
+            console.log(formData);
+
+            setFormData({
+                name: '',
+                email: '',
+                message: ''
+            });
+    
+            // Clear validation errors
+            setValidationErrors({
+                name: false,
+                email: false,
+                message: false
+            });
+            
+            // Redirect or perform any other action here after saving to local storage
+        } else {
+            // Display error message if form is incomplete
+            alert('Please complete the form.');
+        }
     };
 
     return (
@@ -54,7 +79,6 @@ const ContactPage = () => {
             <br />
             <h3>Contact Me!</h3>
             <hr />
-            <br />
             <div className="container">
                 <div className="row">
                     <div className="col-10">

@@ -19,7 +19,7 @@ export default function Header(props){
     ]
 
     return (
-        <header className="container-fluid">
+        <header className="header">
             <div className="row">
                 <div className="col-4">
                     <h1>{props.sitename}</h1>

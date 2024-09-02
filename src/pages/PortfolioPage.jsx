@@ -8,7 +8,7 @@ export default function PortfolioPage(){
         <>
             <br />
             <h3>Portfolio</h3>
-                    <div className="container-fluid">
+                    <div className="projects">
                         <Project />
                      </div>
         </>
