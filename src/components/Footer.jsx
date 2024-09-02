@@ -1,6 +1,4 @@
-// import GitHub from '../assets/GitHub-Logo.svg'
-// import LinkedIn from '../assets/LinkedIn-Logo.svg'
-// import StackOverflow from '../assets/Stack_Overflow-Logo.svg'
+
 import React from 'react'
 import { Link } from 'react-router-dom'
 

@@ -20,6 +20,10 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+div.col-12 {
+  margin-left: 15px;
+}
+
 #name{
   width: 25vh;
 }
@@ -47,6 +51,16 @@
 .projects {
   padding: 20px;
   width: 100%;
+}
+
+.emph, .website {
+  color: yellow;
+  display: inline;
+}
+
+.website {
+  color: white;
+  display: inline;
 }
 
 .header {
