@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'AliveInScienceFiction';
+    src: 
+    url("/fonts/Alive in Science Fiction-BOLD.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ScienceAndFiction';
+    src: 
+         url("/fonts/ScienceAndFiction.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3 {
+    font-family: 'AliveInScienceAndFiction';
+}
+
+h3 {
+    font-family: 'ScienceAndFiction';
+}
+
+body header li a {
+    font-family: 'AliveInScienceAndFiction', sans-serif;
+}
+
+
+h1, h5 {
+    font-family: 'AliveInScienceFiction', serif;
+}
+
+p {
+    font-family: 'AliveInScienceFiction', serif;
+}
+/* body div main div h3 {
+    font-family: 'Mael', sans-serif;
+}
+body div main div div h4 {
+    font-family: 'Mael', sans-serif;
+}
+label {
+    font-family: 'Mael', sans-serif;
+}
+button {
+    font-family: 'Mael', sans-serif;
+}
+
+.mael {
+    font-family: 'Mael', sans-serif;
+} */
